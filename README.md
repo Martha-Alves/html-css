@@ -1,5 +1,4 @@
-<h1><a href="https://github.com/Martha-Alves" target="_blank" rel="external">Acesse meu repositório para ver todos os meus trabalhos</a>
-<hr></h1>
+<h1><a href="https://github.com/Martha-Alves" target="_blank" rel="external">Acesse meu repositório para ver todos os meus trabalhos</a></h1>
 
 <h2>Meus projetos de HTML e CSS</h2>
 
