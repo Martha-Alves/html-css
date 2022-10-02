@@ -1,11 +1,14 @@
-# html-css
- Meus projetos de HTML e CSS
+<a href="martha-alves.github.io">martha-alves.github.io</a>
+<hr>
+ <H1>Meus projetos de HTML e CSS</H1>
 
-Veja os projetos que fiz nos desafios que o curso de HTML5 e CSS3 do CursoEmVideo propôs:
+<P>Veja os projetos que fiz nos desafios que o curso de HTML5 e CSS3 do CursoEmVideo propôs:</P>
 
-Uma matéria sobre o mascote do Android: https://martha-alves.github.io/html-css/Desafios-CursoEmVideo/1-Android/
+<a href="https://martha-alves.github.io/html-css/Desafios-CursoEmVideo/1-Android/">Uma matéria sobre o mascote do Android</a> 
 
-Projeto cordel, um poema de Milton Duarte: https://martha-alves.github.io/html-css/Desafios-CursoEmVideo/2-Cordel/
+<a href="https://martha-alves.github.io/html-css/Desafios-CursoEmVideo/2-Cordel/">Projeto cordel, um poema de Milton Duarte</a> 
 
-Site com redes sociais do CursoemVideo: https://martha-alves.github.io/html-css/Desafios-CursoEmVideo/3-Redes-Sociais/
+<a href="https://martha-alves.github.io/html-css/Desafios-CursoEmVideo/3-Redes-Sociais/
+">Site com redes sociais do CursoemVideo</a> 
+
 
