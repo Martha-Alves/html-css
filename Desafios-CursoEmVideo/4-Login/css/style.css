@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+:root {
+    --corl1:#101010;
+    --corl2: #FFD56D;
+    --corl3: #fff;
+    --corl5: rgb(0, 0, 0);
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, var(--corl1), var(--corl2));
+}
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 515px;
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.450);
+    background-color: var(--corl3);
+    border-radius: 8px;
+}
+
+.img {
+    display: block;
+    background: url('../img/dusan-kipic-pyMbXQhPK0ke-unsplash.jpg') center center no-repeat; /*alterei nao era center center*/
+    background-size: cover;
+    height: 300px; /*alterei antes era 200*/
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.form {
+    display: block;
+    padding: 10px;
+}
+
+.form h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px; /*alterei*/
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.campo {
+    display: block;
+    background-color: var(--corl5);
+    width: 100%;
+    padding: 2%;
+    border-radius: 8px;
+    margin: 5px 0px;
+}
+
+.campo label {
+    display: none;
+}
+
+.campo i {
+    color: var(--corl2);
+    padding: 2px;
+}
+
+.texto {
+    width: 100%;
+    margin: 10px auto 10px auto ;
+    padding: 2%;
+}
+
+.texto p {
+    float: left;
+}
+
+.texto label {
+    font-size: 0.8em;
+    
+}
+
+.texto input {
+    all: unset;
+    border: 1px solid black;
+    width: 5px;
+    height: 6px;
+    display: inline-block;
+}
+
+.texto input:checked{
+    background-color: var(--corl2);
+    width: 5px;
+    height: 6px;
+}
+
+.texto input[type="checkbox"] {
+    width: 9px;
+    height: 9px;
+    line-height: 0.8em;
+    
+}
+
+.texto a {
+    text-decoration: none;
+    color: var(--corl5);
+    font-size: 0.8em;
+    float: right;
+}
+
+.botao {
+    width: 100%;
+    color: var(--corl2);
+    background-color: var(--corl1);
+    border-radius: 8px;
+    padding: 2%;
+    margin: 5px 0px;
+    cursor: pointer;
+    margin: 15px auto 20px auto;
+}
+
+
+@media screen and (min-width: 768px) {
+    .login {
+        width: 80vw;
+        height: 300px;
+    }
+    
+    .img {
+        float: right;
+        height: 100%;
+        width: 50%;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 8px;
+    }
+
+    .form {
+        float: left;
+        height: 100%;
+        width: 50%;
+    }
+
+    .form h1 {
+        font-size: 3em;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+
+    .campo input {
+        width: 91%;
+    }
+    
+}    
+
+@media screen and (min-width: 992px) {
+    .login {
+        width: 60vw;
+        height: 300px;
+    }
+
+}
+
