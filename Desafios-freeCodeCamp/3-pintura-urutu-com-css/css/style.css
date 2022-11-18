@@ -1,0 +1,248 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box; 
+    overflow: hidden;
+}
+
+body { 
+    z-index: -1;
+    background: #5b0101;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.q1 { 
+    margin: auto;
+    z-index: 1;
+    max-width:370px;
+    height:250px;
+    background-color: black;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.q1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.q2 { 
+    position: relative;
+    margin: auto;
+    z-index: 1;
+    max-width:370px;
+    height:250px;
+    max-height:250px;
+    background-color: black;
+}
+
+
+#fundo {
+    z-index: -1;
+    background: linear-gradient(to top, #124273, #283F68, #002859) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+#campo {
+    z-index: 1;
+    background: linear-gradient(to bottom, #0E2F1C, #697425, #717F27);
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: -45px;
+    clip-path: ellipse();
+    box-shadow: 10px 1px 10px #875c5c;
+}
+
+
+ #ovinho {
+    z-index: 3;
+    width: 140px;
+    height: 200px;
+    background: linear-gradient(to bottom, #EFD7B3, #FEF8E2, #FEEAD1);
+    box-shadow: 10px 10px 10px #875c5c;
+    clip-path: ellipse();
+    position: absolute;
+    top: 27px;
+    left: 54px;
+    
+}
+
+
+#base {
+    z-index: 2; 
+    width: 260px;
+    height: 250px;
+    clip-path: ellipse(35% 16%);
+    background-color:  #5b0116;
+    position: absolute;
+    top: 85px;
+    left: 1px;
+}
+
+#ponte1 {
+    z-index: 3; 
+    clip-path: polygon(69% 36%, 89% 55%, 21% 100%, 0 86%);
+    width: 50px;
+    height: 120px;
+    background-color:  #5b0116;
+    position: absolute;
+    top:100px;
+    right: 130px;
+}
+
+#ponte2{
+    z-index: 3;
+    clip-path: polygon(14% 30%, 100% 26%, 100% 46%, 15% 42%);
+    width: 23px;
+    height: 90px;
+    background-color:  #5b0116;
+    position: absolute;
+    top:49%;
+    right: 30%;
+    transform: scaleX(-2);
+}
+
+.baseespeto {
+    z-index: 2; 
+    width: 80px;
+    height: 130px;
+    clip-path: ellipse(35% 16%);
+    background-color:  #000000;
+    position: absolute;
+    top: 65%;
+    right: 12%;
+}
+
+#espeto {
+    z-index: 2; 
+    width: 150px;
+    height: 200px;
+    clip-path: polygon(50% 0%, 43% 100%, 58% 100%);
+    background-color:  #f23c0f;
+    position: absolute;
+    top: 12%;
+    right: 3%;
+}
+
+#baixo {
+    z-index: 2; 
+    width: 31px;
+    height: 70px;
+    clip-path: ellipse(35% 16%);
+    background-color:  #f23c0f;
+    position: absolute;
+    top: 77%;
+    right: 19%;
+}
+
+#redondo1 {
+    z-index: 2; 
+    width: 80px;
+    height: 130px;
+    clip-path: ellipse(35% 16%);
+    background-color:  #5b0116;
+    position: absolute;
+    top: 41%;
+    right: 12%
+}
+
+#redondo2 {
+    z-index: 3; 
+    width: 80px;
+    height: 130px;
+    clip-path: ellipse(35% 16%);
+    background-color:  #5b0116;
+    position: absolute;
+    top: 30%;
+    right: 12%;
+}
+
+
+#redondo3 {
+    z-index: 3; 
+    width: 27px;
+    height: 15px;
+    border-radius: 60px;
+    background-color:  #5b0116;
+    position: absolute;
+    top: 43%;
+    right: 16%;
+}
+
+#redondo4 {
+    z-index: 3; 
+    width: 25px;
+    height: 15px;
+    border-radius: 60px;
+    background-color:  #5b0101;
+    position: absolute;
+    top: 43%;
+    right: 23%;
+}
+
+#redondo5 {
+    z-index: 1;
+    width: 55px;
+    height: 30px;
+    border-radius: 60px;
+    background-color:  #5b0101;
+    position: absolute;
+    top: 39%;
+    right: 15.5%;
+}
+
+#redondo6 {
+    z-index: 1;
+    width: 80px;
+    height: 14px;
+    border-radius: 60px;
+    background-color:  #5b0101;
+    position: absolute;
+    top: 39%;
+    right: 16%;
+}
+
+
+#redondo7 {
+    z-index: 3; 
+    width: 15px;
+    height: 25px;
+    border-radius: 60px;
+    background-color:  #5b0101;
+    position: absolute;
+    top: 33%;
+    right: 35%;
+}
+
+#redondo8 {
+    z-index: 3; 
+    width: 35px;
+    height: 40px;
+    clip-path: polygon(69% 36%, 89% 55%, 21% 100%, 0 86%);
+    background-color:  #5b0101;
+    position: absolute;
+    top: 20%;
+    right: 29%;
+}
+
+#redondo9 {
+    z-index: 1;
+    width: 20px;
+    height: 10px;
+    border-radius: 60px;
+    background-color:  #5b0101;
+    position: absolute;
+    top: 25%;
+    right: 32%;
+}
+
+
