@@ -1,4 +1,4 @@
-# Área de direitos autorais
+# Área de direito autoral
 
  ©️<a href="https://www.flaticon.com/br/icones-gratis/senha" title="senha ícones">Senha ícones criados por Freepik - Flaticon</a>
  
