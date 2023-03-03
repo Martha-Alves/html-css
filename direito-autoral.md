@@ -15,3 +15,5 @@
  ©️<a href="https://www.flaticon.com/free-icons/paint" title="paint icons">Paint icons created by Freepik - Flaticon</a>
  
  ©️<a href="https://www.flaticon.com/br/icones-gratis/binario" title="binário ícones">Binário ícones criados por Freepik - Flaticon</a>
+ 
+ ©️<a href="https://www.flaticon.com/br/icones-gratis/termometro" title="termômetro ícones">Termômetro ícones criados por Freepik - Flaticon</a>
