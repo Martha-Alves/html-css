@@ -17,3 +17,5 @@
  ©️<a href="https://www.flaticon.com/br/icones-gratis/binario" title="binário ícones">Binário ícones criados por Freepik - Flaticon</a>
  
  ©️<a href="https://www.flaticon.com/br/icones-gratis/termometro" title="termômetro ícones">Termômetro ícones criados por Freepik - Flaticon</a>
+ 
+ ©️<a href="https://www.flaticon.com/br/icones-gratis/atualizar" title="atualizar ícones">Atualizar ícones criados por Smashicons - Flaticon</a>
